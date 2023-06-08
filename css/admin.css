@@ -1,0 +1,377 @@
+#div-btn {
+    margin-left: -25%;
+}
+
+.img-responsive {
+    width: 100px;
+}
+
+aside>a {
+    display: flex;
+}
+
+@media (max-width: 320px) {
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+    .row aside {
+        width: 100vw;
+    }
+    a.d-flex {
+        width: 100% !important;
+        display: flex !important;
+        justify-content: center;
+    }
+    #div-btn {
+        width: 100% !important;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .bi {
+        display: none;
+    }
+    .mb-3 {
+        margin-bottom: 0 !important;
+    }
+    aside {
+        min-height: 0;
+    }
+    .p-5 {
+        padding: 0 !important;
+    }
+    .col-9 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+    .my-5 {
+        margin-top: 30px !important;
+        margin-bottom: 30px !important;
+    }
+    .my-5>h1:nth-child(1),
+    .btn-primary {
+        margin-left: 30px;
+    }
+    .bd-example>table:nth-child(1)>thead:nth-child(1)>tr:nth-child(1)>th:nth-child(1),
+    .bd-example>table:nth-child(1)>thead:nth-child(1)>tr:nth-child(1)>th:nth-child(5),
+    #row-attraction {
+        display: none;
+    }
+    #tbody tr th {
+        width: 320px !important;
+        opacity: 50%;
+        text-align: center;
+        border: 0px;
+    }
+    #tbody,
+    .table>thead,
+    .bd-example>table:nth-child(1)>thead:nth-child(1)>tr:nth-child(1),
+    #tbody tr {
+        width: 320px !important;
+        display: inline-block;
+    }
+    .bd-example>table:nth-child(1)>thead:nth-child(1)>tr:nth-child(1)>th:nth-child(2),
+    th:nth-child(3) {
+        width: 180px !important;
+    }
+    #tbody tr {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 15px 10px 15px 0;
+        border-bottom: 1px solid #000;
+        align-items: center;
+    }
+    #tbody tr td {
+        width: 145px !important;
+        padding: 0 !important;
+        border: 0px;
+        margin-left: 10px !important;
+    }
+    #tbody>tr>td:nth-child(5) {
+        width: 320px !important;
+        padding: 0 !important;
+        border: 0px;
+        margin-left: 0 !important;
+        justify-content: center;
+        display: flex;
+        margin-top: 15px;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 375px) {
+    .img-responsive {
+        width: 130px;
+    }
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+    .row aside {
+        width: 100vw;
+    }
+    a.d-flex {
+        width: 100% !important;
+        display: flex !important;
+        justify-content: center;
+    }
+    #div-btn {
+        width: 100% !important;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .bi {
+        display: none;
+    }
+    .mb-3 {
+        margin-bottom: 0 !important;
+    }
+    aside {
+        min-height: 0;
+    }
+    .p-5 {
+        padding: 0 !important;
+    }
+    .col-9 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+    .my-5 {
+        margin-top: 30px !important;
+        margin-bottom: 30px !important;
+    }
+    .my-5>h1:nth-child(1),
+    .btn-primary {
+        width: 300px;
+        margin-left: 30px;
+    }
+    .bd-example>table:nth-child(1)>thead:nth-child(1)>tr:nth-child(1)>th:nth-child(1),
+    .bd-example>table:nth-child(1)>thead:nth-child(1)>tr:nth-child(1)>th:nth-child(5),
+    #row-attraction {
+        display: none;
+    }
+    #tbody tr th {
+        width: 375px !important;
+        opacity: 50%;
+        text-align: center;
+        border: 0px;
+    }
+    #tbody,
+    .table>thead,
+    .bd-example>table:nth-child(1)>thead:nth-child(1)>tr:nth-child(1),
+    #tbody tr {
+        width: 375px !important;
+        display: inline-block;
+    }
+    .bd-example>table:nth-child(1)>thead:nth-child(1)>tr:nth-child(1)>th:nth-child(2),
+    th:nth-child(3) {
+        width: 187.5px !important;
+    }
+    #tbody tr {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 15px 10px 15px 0;
+        border-bottom: 1px solid #000;
+        align-items: center;
+    }
+    #tbody tr td {
+        width: 167.5px !important;
+        padding: 0 !important;
+        border: 0px;
+        margin-left: 10px !important;
+    }
+    #tbody>tr>td:nth-child(5) {
+        width: 375px !important;
+        padding: 0 !important;
+        border: 0px;
+        margin-left: 0 !important;
+        justify-content: center;
+        display: flex;
+        margin-top: 15px;
+    }
+}
+
+@media (min-width: 376px) and (max-width: 425px) {
+    .img-responsive {
+        width: 130px;
+    }
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+    .row aside {
+        width: 100vw;
+    }
+    a.d-flex {
+        width: 100% !important;
+        display: flex !important;
+        justify-content: center;
+    }
+    #div-btn {
+        width: 100% !important;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .bi {
+        display: none;
+    }
+    .mb-3 {
+        margin-bottom: 0 !important;
+    }
+    aside {
+        min-height: 0;
+    }
+    .p-5 {
+        padding: 0 !important;
+    }
+    .col-9 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+    .my-5 {
+        margin-top: 30px !important;
+        margin-bottom: 30px !important;
+    }
+    .my-5>h1:nth-child(1),
+    .btn-primary {
+        width: 300px;
+        margin-left: 30px;
+    }
+    .bd-example>table:nth-child(1)>thead:nth-child(1)>tr:nth-child(1)>th:nth-child(1),
+    .bd-example>table:nth-child(1)>thead:nth-child(1)>tr:nth-child(1)>th:nth-child(5),
+    #row-attraction {
+        display: none;
+    }
+    #tbody tr th {
+        width: 425px !important;
+        opacity: 50%;
+        text-align: center;
+        border: 0px;
+    }
+    #tbody,
+    .table>thead,
+    .bd-example>table:nth-child(1)>thead:nth-child(1)>tr:nth-child(1),
+    #tbody tr {
+        width: 425px !important;
+        display: inline-block;
+    }
+    .bd-example>table:nth-child(1)>thead:nth-child(1)>tr:nth-child(1)>th:nth-child(2),
+    th:nth-child(3) {
+        width: 212.5px !important;
+    }
+    #tbody tr {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 15px 10px 15px 0;
+        border-bottom: 1px solid #000;
+        align-items: center;
+    }
+    #tbody tr td {
+        width: 197.5px !important;
+        padding: 0 !important;
+        border: 0px;
+        margin-left: 10px !important;
+    }
+    #tbody>tr>td:nth-child(5) {
+        width: 425px !important;
+        padding: 0 !important;
+        border: 0px;
+        margin-left: 0 !important;
+        justify-content: center;
+        display: flex;
+        margin-top: 15px;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+    .img-responsive {
+        width: 130px;
+    }
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+    .row aside {
+        width: 100vw;
+    }
+    a.d-flex {
+        width: 100% !important;
+        display: flex !important;
+        justify-content: center;
+    }
+    #div-btn {
+        width: 100% !important;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .bi {
+        display: none;
+    }
+    .mb-3 {
+        margin-bottom: 0 !important;
+    }
+    aside {
+        min-height: 0;
+    }
+    .p-5 {
+        padding: 0 !important;
+    }
+    .col-9 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+    .my-5 {
+        margin-top: 30px !important;
+        margin-bottom: 30px !important;
+    }
+    .my-5>h1:nth-child(1),
+    .btn-primary {
+        width: 300px;
+        margin-left: 30px;
+    }
+    #row-attraction {
+        display: none;
+    }
+}
+
+@media only screen and (max-device-width: 1000px) {
+    #div-btn {
+        margin-left: -35%;
+    }
+}
+
+@media only screen and (max-device-width: 875px) {
+    #div-btn {
+        margin-left: 120%;
+    }
+    #aside-btn {
+        text-align: center;
+        width: 100%;
+        height: 200px;
+    }
+    main {
+        margin-left: 10%;
+    }
+}
+
+@media only screen and (max-device-width: 768px) {
+    #div-btn {
+        margin-left: 30%;
+    }
+}
+
+@media only screen and (max-device-width: 480px) {
+    .row-attraction {
+        display: none;
+    }
+    main {
+        margin: 0;
+        padding: 0;
+    }
+    #row-attraction {
+        display: none;
+    }
+}

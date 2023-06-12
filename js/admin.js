@@ -10,7 +10,7 @@ async function getEvents() { // Faz requisição na Api, para preencher o painel
         return data;
 
     } catch (error) {
-        console.error(error)
+        console.error(error) 
     }
 }
 getEvents();
@@ -29,7 +29,7 @@ async function getEventsToModal(id) {
         return;
     } else {
         const bookingListLength = bookingList.length
-        createListToModal(bookingList, bookingListLength);
+        createListToModal(bookingList, bookingListLength); 
     }
 
 }
